@@ -1,0 +1,22 @@
+{
+  "name": "groundmail/prestashop",
+  "description": "Groundmail for PrestaShop: send all shop email through the Groundmail email API",
+  "type": "prestashop-module",
+  "license": "MIT",
+  "homepage": "https://groundmail.dev",
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5 || ^9.6",
+    "swiftmailer/swiftmailer": "^6.3",
+    "symfony/mime": "^5.4 || ^6.4 || ^7.0"
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "sort-packages": true,
+    "prepend-autoloader": false
+  }
+}

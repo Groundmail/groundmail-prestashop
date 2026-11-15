@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>groundmail</name>
+    <displayName><![CDATA[Groundmail]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Send every email your shop sends, from order confirmations to password resets, through the Groundmail email API.]]></description>
+    <author><![CDATA[Groundmail]]></author>
+    <tab><![CDATA[emailing]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+    <limited_countries></limited_countries>
+</module>
